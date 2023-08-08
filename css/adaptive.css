@@ -38,6 +38,8 @@
         width: 322px;
     }
     .content {
+        margin-left: auto;
+        margin-right: auto;
         flex-direction: column;
     }
     .first-content {
@@ -71,6 +73,7 @@
     .second_section {
         max-width: 480px;
         height: 840px;
+        justify-content: flex-end;
         flex-direction: column-reverse;
     }
     .www img {
@@ -81,6 +84,13 @@
     .about-us-block {
         max-width: 358px;
         height: 410px;
+    }
+    #second-hr {
+        margin-top: 45px;
+        display: flex;
+    }
+    #third-hr {
+        display: none;
     }
     .about-us-text-block {
         height: 359px;
@@ -96,10 +106,18 @@
     }
     .about-us-img {
         height: 270px;
-        width: 305px;
+        width: 330px;
+        margin-top: 21px;
     }
     .third_section {
         max-width: 480px;
+        height: 1100px;
+    }
+    .column-about-us {
+        gap: 15px;
+    }
+    .row-about-us-block {
+        gap: 15px;
     }
     .content-third-section-first img {
         display: none;
@@ -123,6 +141,7 @@
 
     .fourth_section img {
         height: 310px;
+        width: 100%;
     }
     .group-gallery1 {
         display: none;
@@ -133,6 +152,9 @@
 
     .tokenomics_block {
         width: 355px;
+    }
+    .tokenomics-spread-list {
+        width: 300px;
     }
     .fees {
         width: 208px;
