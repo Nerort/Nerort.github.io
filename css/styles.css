@@ -7,6 +7,11 @@
 }
 
 @font-face {
+    font-family: "Delius";
+    src: url("../fonts/Delius-Regular.ttf");
+}
+
+@font-face {
     font-family: "Louize";
     src: url("../fonts/Louize.ttf");
 }
@@ -119,6 +124,12 @@ nav li {
     border-bottom: 2px solid rgba(255, 255, 255, 0.43);
     display: block;
     width: 83%;
+}
+
+.border_bottom_second {
+    display: flex;
+    height: 2px;
+    width: 100%;
 }
 
 .spoody-first-block {
@@ -238,6 +249,8 @@ nav li {
     font-family: "Louize";
     height: 738px;
     display: flex;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .content-third-section {
@@ -249,15 +262,19 @@ nav li {
     display: flex;
     justify-content: center;
     align-items: flex-start;
+    height: 143px;
+    position: relative;
+    margin-top: 69px;
 }
 
 .our-features-heading {
-    margin-left: auto;
     font-size: 47px;
 }
 
 .content-third-section-first img {
-    justify-self: flex-end;
+    position: absolute;
+    top: 0;
+    right: 0;
 }
 
 .column-about-us {
@@ -319,6 +336,8 @@ nav li {
 /* Tokenomics list */
 .tokenomics_block {
     display: flex;
+    margin-left: auto;
+    margin-right: auto;
     flex-direction: column;
     font-family: "Louize";
     align-items: center;
@@ -427,15 +446,17 @@ nav li {
     display: inline-flex;
     width: 202px;
     height: 79px;
+    gap: 12px;
+    text-align: center;
     font-size: 16px;
-    font-family: "Louize";
+    font-family: "Delius";
     align-items: center;
     justify-content: center;
     text-align: center;
     border-radius: 9px;
     border-top: 1px solid var(--d, rgba(255, 255, 255, 0.40));
     border-bottom: 1px solid var(--d, rgba(255, 255, 255, 0.40));
-    background: linear-gradient(-11deg, rgba(34, 30, 40, 1) 0%, rgba(169, 61, 61, 1) 60%, rgba(253, 8, 9, 1) 100%);
+    background: linear-gradient(0deg, rgba(169, 61, 61, 1) 0%, rgba(169, 61, 61, 1) 30%, rgba(253, 8, 9, 1) 100%);;
 
 }
 
