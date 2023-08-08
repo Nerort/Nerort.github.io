@@ -206,6 +206,10 @@ nav li {
     right: 0;
     z-index: 1;
 }
+.www img {
+    width: 131px;
+    height: 172px;
+}
 
 .about-us-text-block {
     position: absolute;
@@ -215,7 +219,10 @@ nav li {
     height: 284px;
     border-bottom: 1px solid rgba(255, 255, 255, 0.40);
 }
-
+.about-us-img {
+    width: 600px; 
+    height: 503px;
+}
 .about-us-heading {
     display: flex;
     justify-content: center;
@@ -315,10 +322,14 @@ nav li {
 
 /* Fourth Section */
 .fourth_section {
+    min-width: 100%;
     height: 1010px;
     display: flex;
     align-items: center;
 
+}
+.group-gallery2 {
+    display: none;
 }
 
 
@@ -354,6 +365,18 @@ nav li {
     margin-top: 45px;
     display: flex;
     justify-content: space-between;
+    width: 340px;
+    font-family: "Arial";
+    font-size: 14.8px;
+    height: 20px;
+    text-align: center;
+}
+
+.tokenomics-spread-list-2 {
+    display: flex;
+    margin-top: 11px;
+    margin-bottom: 42px;
+    justify-content: center;
     width: 340px;
     font-family: "Arial";
     font-size: 14.8px;
