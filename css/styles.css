@@ -131,6 +131,10 @@ nav li {
     height: 2px;
     width: 100%;
 }
+#second-hr {
+    display: none;
+
+}
 
 .spoody-first-block {
     display: flex; 
