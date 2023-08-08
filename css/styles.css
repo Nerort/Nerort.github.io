@@ -27,7 +27,7 @@ img {
 }
 
 .container {
-    width: 1298px;
+    max-width: 1298px;
     margin-left: auto;
     margin-right: auto;
     padding: 0;
@@ -75,6 +75,10 @@ nav li {
     padding: 14px 22px 0 22px;
 }
 
+.burger-img {
+    display: none;
+}
+
 .first_section {
     height: 709px;
     /* border-bottom: 2px solid rgb(255, 255, 255); */
@@ -89,7 +93,7 @@ nav li {
 .container1 {
     display: flex;
     justify-content: space-between;
-    width: 1298px;
+    max-width: 1298px;
     max-height: 590px;
     margin-top: 41px;
     margin-left: auto;
@@ -162,6 +166,7 @@ nav li {
 
 /* Second Section */
 .second_section {
+    max-width: 1298px;
     height: 666px;
     display: flex;
     justify-content: space-between;
@@ -169,8 +174,10 @@ nav li {
 }
 
 .about-us-block {
+    position: relative;
     display: flex;
     flex-direction: column;
+    align-items: flex-end;
     width: 690px;
     height: 418px;
 }
@@ -203,6 +210,7 @@ nav li {
     line-height: 30px; /* 166.667% */
     margin-left: 46px;
     margin-top: 18px;
+    margin-bottom: 40px;
     margin-right: 84px;
     letter-spacing: -1px;
 }
@@ -210,17 +218,42 @@ nav li {
 
 /* Third Section */
 .third_section {
+    max-width: 1298px;
     font-family: "Louize";
     height: 738px;
     display: flex;
 }
 
 .content-third-section {
-    display: grid;
+    display: flex;
+    flex-direction: column;
 }
 
 .content-third-section-first {
     display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.our-features-heading {
+    margin-left: auto;
+    font-size: 47px;
+}
+
+.content-third-section-first img {
+    justify-self: flex-end;
+}
+
+.column-about-us {
+    display: flex;
+    gap: 24px;
+    flex-direction: column;
+}
+
+.row-about-us-block {
+    display: flex;
+    gap: 24px;
+    justify-content: space-between;
 }
 
 .feature_item {
@@ -229,12 +262,23 @@ nav li {
     align-items: flex-start;
     gap: 40px;
     border-radius: 12px;
+    height: 217px;
+    width: 636px;
     border-top: 1px solid var(--d, rgba(255, 255, 255, 0.40));
     border-bottom: 1px solid var(--d, rgba(255, 255, 255, 0.40));
     background: var(--linear, linear-gradient(136deg, rgba(255, 255, 255, 0.10) 0%, rgba(255, 255, 255, 0.05) 100%));
 }
 
+.feature-item-no-img {
+    display: flex;
+    flex-direction: column;
+}
 
+.feature-text {
+    font-size: 18px;
+    padding-top: 14px;
+    color: rgba(255, 255, 255, 0.80);
+}
 
 /* Fourth Section */
 .fourth_section {
@@ -272,6 +316,7 @@ nav li {
 }
 
 .tokenomics-spread-list {
+    margin-top: 45px;
     display: flex;
     justify-content: space-between;
     width: 340px;
@@ -312,6 +357,45 @@ nav li {
     color: #EF1200;
 }
 
+.fees-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 31px
+}
+
+.fees {
+    display: flex;
+    flex-direction: column;
+    padding-top: 41px;
+    padding-bottom: 41px;
+    align-items: center;
+    gap: 14px;
+    border-radius: 12px;
+    height: 157px;
+    width: 341px;
+    border-top: 1px solid var(--d, rgba(255, 255, 255, 0.40));
+    border-bottom: 1px solid var(--d, rgba(255, 255, 255, 0.40));
+    background: var(--linear, linear-gradient(136deg, rgba(255, 255, 255, 0.10) 0%, rgba(255, 255, 255, 0.05) 100%));  
+}
+
+.fees-first-paragraph {
+    font-size: 24px;
+    line-height: 30px; /* 125% */
+}
+
+.fees-second-paragraph {
+    color: rgba(255, 255, 255, 0.80);
+    text-align: center;
+    font-size: 18px;
+    text-align: center;
+    line-height: 29.988px; /* 166.6% */
+}
+
+.tokenomics-info {
+    margin-left: 36px;
+}
+
 .cryptowallet-address {
     font-family: "Bebas Neue";
     font-size: 16px;
@@ -319,6 +403,7 @@ nav li {
     line-height: 31px;
     letter-spacing: 2.4px;
     text-align: center;
+    margin-top: 24px;
 }
 
 .bscscan_button {
@@ -343,7 +428,7 @@ nav li {
 
 /* Sixth Section */
 /* .sixth-section {
-    height: 5771px;
+    min-width: 1298px;
 } */
 .meme-gallery {
     display: flex;
@@ -371,6 +456,7 @@ nav li {
 .two-columns-gallery {
     display: flex;
     justify-content: space-between;
+    width: 1298px;
 }
 
 .third-column-gallery {
@@ -383,16 +469,19 @@ nav li {
 .fourth-column-gallery {
     display: flex;
     flex-direction: column;
+    width: 1298px;
     height: 2433px;
 }
 
 .fourth-column-row-gallery {
     display: flex;
+    width: 1298px;
 }
 
 .third-three {
     display: flex;
     justify-content: space-between;
+    width: 1298px;
 
 }
 /* Footer */
@@ -400,15 +489,14 @@ nav li {
     padding: 100px 60px 60px 60px;
     border-top: 1px solid #FFF;
     height: 395px;
-
+    min-width: 1298px;
     background: linear-gradient(136deg, rgba(255, 0, 0, 0.38) 0%, rgba(255, 255, 255, 0.03) 100%, rgba(255, 0, 0, 0.54) 100%);
 }
 
-#footer_div {
-    
+#footer_div {  
     display: flex;
     justify-content: center;
-    width: 100%;
+    /* width: 100%; */
 }
 
 #footer_text {
