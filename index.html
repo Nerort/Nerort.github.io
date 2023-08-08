@@ -5,6 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./css/styles.css">
+  <link rel="stylesheet" href="./css/adaptive.css">
   <!-- <link rel="shortcut icon" href="favicon.ico" type="image/x-icon"> -->
   <title>Spoody</title>
 </head>
@@ -15,7 +16,8 @@
       <div class="container">
         <nav>
           <a href="#" id="header_logo">SPOODY</a>
-          <ul>
+          <a class="burger-img" href="#"><img src="images/burger.svg" alt=""></a>
+          <ul class="nav-list">
             <li><a href="">ABOUT</a></li>
             <li><a href="">FEATURES</a></li>
             <li><a href="">TOKENOMICS</a></li>
@@ -27,12 +29,12 @@
     <div class="container">
     <div class="container1">
       <div class="content">
-        <div>
+        <div class="first-content">
         <p id="p_red">Want to understand how a meme can destroy the entire coin industry?<br>
           just buy Spoody token</p>
-          <div style="display: flex; width: 501px; justify-content: space-between; height: 107px;">
+          <div class="spoody-first-block" style="display: flex; width: 501px; justify-content: space-between; height: 107px;">
             <h1 id="spoody_first_section">SPOODY</h1>
-            <img src="images/spider_red.png" alt="" width="162px" height="107px" style="padding-top: 10px;">
+            <img class="first-section-spider" src="images/spider_red.png" alt="" width="162px" height="107px" style="padding-top: 10px;">
           </div>
         <a id="buy_button" href="#">BUY</a>
         <!-- <img id="spider_red" src="images/spider_red.png" alt=""> -->
@@ -61,7 +63,7 @@
   <div class="second_section">
       <img src="images/ОЛ.png" alt="sp" style="width: 600px; height: 503px;">
     <div class="about-us-block">
-      <!-- <img src="images/about_us_spider.png" alt="SpiderMan" width="131px" height="179px"> -->
+      <div class="www"><img src="images/about_us_spider.png" alt="" width="131px" height="172px"></div>
       <div class="about-us-text-block">
         <div class="about-us-heading">
           <h3>ABOUT US</h3>
@@ -81,14 +83,42 @@
     <div class="container">
       <div class="content-third-section">
         <div class="content-third-section-first">
-          <h1>Our Features</h1>
-          <img src="images/group3.png" alt="" width="286px" height="143px">
+          <h1 class="our-features-heading">Our Features</h1>
+          <img src="images/group3.png" alt="" width="286px" height="143px" style="margin-left: auto;">
         </div>
-        <div>
-          <div class="feature_item"><h2>Combining and linking to news</h2>We follow the trends ourselves and soon set new ones, you just need to be with us</div>
-          <div class="feature_item"><h2>Own comic</h2>the comic not only describes memes and carries a story behind it, it also contains information about further manipulations</div>
-          <div class="feature_item"><h2>Waived contract</h2>Contract will be renounced before the project is launched</div>
-          <div class="feature_item"><h2>Huge audience encouragement</h2>For any help to the project you will receive a reward in the form of our token</div>
+        <div class="column-about-us">
+          <div class="row-about-us-block">
+            <div class="feature_item">
+              <img src="images/spider.svg" alt="" style="padding-top: 12px;">
+              <div class="feature-item-no-img">
+                <h2>Combining and linking to news</h2>
+                <p class="feature-text">We follow the trends ourselves and soon set new ones, you just need to be with us</p>
+              </div>
+            </div>
+            <div class="feature_item">
+              <img src="images/zero_symbol.png" alt="" style="padding-top: 12px;">
+              <div class="feature-item-no-img">
+                <h2>Own comic</h2>
+                <p class="feature-text">the comic not only describes memes and carries a story behind it, it also contains information about further manipulations</p>
+              </div>
+            </div>
+          </div>
+          <div class="row-about-us-block">
+            <div class="feature_item">
+              <img src="images/danger_symbol.png" alt="" style="padding-top: 12px;">
+              <div class="feature-item-no-img">
+                <h2>Waived contract</h2>
+                <p class="feature-text">Contract will be renounced before the project is launched</p>
+              </div>
+            </div>
+            <div class="feature_item">
+              <img src="images/lock_symbol.png" alt="" style="padding-top: 12px;">
+              <div class="feature-item-no-img">
+                <h2>Huge audience encouragement</h2>
+                <p class="feature-text">For any help to the project you will receive a reward in the form of our token</p>
+              </div>
+            </div>
+        </div>
       </div>
       </div>
   </div>
@@ -112,8 +142,10 @@
         <li class="tokenomics-spread-item" id="treasury-item">Treasury - 20</li>
         <!-- <li class="tokenomics-spread-item" id="liquidity-item">Liquidity pool - 50</li> -->
       </ul>
-      <div class="fees"></div>
-      <p>Symbol: $BPEPE<br>Supply:<br>1,000,000,000<br>Network: BSC</p>
+      <div class="fees-text">
+        <div class="fees"><p class="fees-first-paragraph">0% FEES</p><p class="fees-second-paragraph">AT BUY/SELL</p></div>
+        <p class="tokenomics-info">Symbol: $BPEPE<br>Supply:<br>1,000,000,000<br>Network: BSC</p>
+      </div>
       <span class="cryptowallet-address">0x55A02AD006CfaF71FEF8D825720A76DFA9fb82F6</span>
       <a class="bscscan_button" href="#">BSCCHAN</a>
     </div>
@@ -122,7 +154,7 @@
   <div class="border_bottom_first"></div>
 
   
-  <div class="sixth-section">
+  <!-- <div class="sixth-section">
     <div class="meme-gallery">
       <div class="first-three">
         <img src="images/first-first-gallery.jpg" alt="" width="373px" height="302px">
@@ -163,7 +195,7 @@
 
     </div>
 
-  </div>
+  </div> -->
 
 
   <footer class="footer">
