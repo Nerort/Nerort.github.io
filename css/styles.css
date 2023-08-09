@@ -45,6 +45,11 @@ img {
     background: linear-gradient(0deg, rgba(34, 17, 28, 1) 0%, rgba(71, 32, 42, 1) 52%, rgba(93, 25, 35, 1) 100%);
     backdrop-filter: blur(25px);
 }
+.header-small {
+    display: none;
+    border-radius: 0 0 0 13px;
+    border-bottom: 1px solid #FFF;
+}
 
 #header_logo {
     display: flex;
@@ -494,6 +499,9 @@ nav li {
 .iron-man-spoody {
     display: none;
 }
+#hidden-hr2 {
+    display: none;
+}
 
 
 
@@ -584,6 +592,10 @@ nav li {
     align-items: center;
     margin-top: 35px;
 }
+.seventh-section {
+    display: none;
+}
+
 /* Footer */
 .footer {
     padding: 100px 60px 60px 60px;
