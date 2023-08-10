@@ -44,13 +44,14 @@ img {
     border-bottom: 1px solid #FFF;
     background: linear-gradient(0deg, rgba(34, 17, 28, 1) 0%, rgba(71, 32, 42, 1) 52%, rgba(93, 25, 35, 1) 100%);
     backdrop-filter: blur(25px);
+    z-index: 51;
 }
-.header-small {
+.header1 {
     display: none;
-    border-radius: 0 0 0 13px;
-    border-bottom: 1px solid #FFF;
 }
-
+.logo-and-burger {
+    z-index: 60;
+}
 #header_logo {
     display: flex;
     font-size: 32.5px;
@@ -84,11 +85,12 @@ nav li {
     display: inline-block;
     padding: 14px 22px 0 22px;
 }
-
-.burger-img {
+.header-menu {
     display: none;
 }
-
+.header-burger {
+    display: none;
+}
 .first_section {
     height: 709px;
     /* border-bottom: 2px solid rgb(255, 255, 255); */
