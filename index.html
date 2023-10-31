@@ -1,304 +1,129 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./css/styles.css">
-  <link rel="stylesheet" href="./css/adaptive.css">
-  <link rel="icon" href="./images/favicon_spoody.png" type="image/png">
-  <title>Spoody</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Egor Pavlov</title>
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/media.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" integrity="sha512-1cK78a1o+ht2JcaW6g8OXYwqpev9+6GqOkz9xmBN9iUUhIndKtxwILGWYOSibOKjLsEdjyjZvYDq/cZwNeak0w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
+<body>
 
-<body class="body">
-  <div class="first_section">
-    <header class="header1">
-      <div class="container">
-        <div class="logo-and-burger">
-          <a href="#" id="header_logo">SPOODY</a>
-          <div class="header-burger"><span></span></div>
+    <header class="header">
+        <div class="container">
+            <!-- Header nav -->
+            <div class="header-nav">
+                <a href="#!" class="logo">Egor</a>
+
+                <nav id="nav" class="nav">
+                    <ul class="nav-list">
+                        <li class="nav-item"><a href="#about" class="nav-link active">About</a></li>
+                        <li class="nav-item"><a href="#fields" class="nav-link">Fields</a></li>
+                        <li class="nav-item"><a href="#portfolio" class="nav-link">Portfolio</a></li>
+                        <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+                    </ul>
+                    <button id="nav-btn" class="nav-button">
+                        <img id="nav-btn-img" src="./img/icons/nav-open.svg" alt="Nav button">
+                    </button>
+                </nav>
+            </div>
+
+            <!-- Header content -->
+            <div class="header-row" id="about">
+
+                <div class="header-content" data-aos="fade-up">
+                    <h1 class="header-heading">Егор Павлов<br> <span>Брат & Developer</span></h1>
+                    <p>I’m a portrait, fashion and lifestyle photographer living In New York City. During my thirteen year tenure here.</p>
+                </div>
+
+                <div class="header-img" data-aos="fade-left">
+
+                    <picture>
+                        <source media="(max-width: 799px)" srcset="./img/header/egor2.png">
+                        <img src="./img/header/egor1.png" alt="">
+                    </picture>
+
+
+                </div>
+            </div>
         </div>
-      </div>
     </header>
 
-        <header class="header">
-          <div class="container">
-            <nav>
-              <a href="#" id="header_logo">SPOODY</a>
-              <ul class="nav-list">
-                <li><a href="#about-us-link">ABOUT</a></li>
-                <li><a href="#features">FEATURES</a></li>
-                <li><a href="#tokenomics-link">TOKENOMICS</a></li>
-              </ul>
-            </nav>
-          </div>
-        </header>
+    <section class="services" id="fields">
+        <div class="container">
+            <h2 class="service-heading">Fields</h2>
+            <div class="services-row">
 
-      <nav class="header-menu">
-        <ul class="nav-list1">
-          <li><a href="#about-us-link">ABOUT</a></li>
-          <li><a href="#features">FEATURES</a></li>
-          <li><a href="#tokenomics-link">TOKENOMICS</a></li>
-        </ul>
-        <img class="batman-spider" src="images/group6.png" width="246px" height="486px" alt="">
-      </nav>
+                <div class="service-card" data-aos="fade-down">
+                    <img class="service-card-img" src="./img/services/01.svg" alt="UI/UX Design">
+                    <h3 class="service-card-title">DeFi</h3>
+                    <p>Our design is translated into comprehensive digital environments built on latest development standards.</p>
+                </div>
 
+                <div class="service-card" data-aos="fade-down">
+                    <img class="service-card-img" src="./img/services/02.svg" alt="UI/UX Design">
+                    <h3 class="service-card-title">Crypto</h3>
+                    <p>Our design is translated into comprehensive digital environments built on latest development standards.</p>
+                </div>
 
-    <div class="container">
-    <div class="container1">
-      <div class="content">
-        <div class="first-content">
-          <div>
-            <p id="p_red">Want to understand how a meme can destroy the entire coin industry?<br>
-              just buy Spoody token</p>
-              <div class="spoody-first-block">
-                <h1 id="spoody_first_section">SPOODY</h1>
-                <img class="first-section-spider" src="images/spider_red.png" alt="" width="162px" height="107px" style="padding-top: 10px;">
-              </div>
-            <a id="buy_button" href="#">BUY</a>
-            <!-- <img id="spider_red" src="images/spider_red.png" alt=""> -->
-          </div>
-          <div>
-            <ul id="social_media">
-              <li><a href="https://twitter.com/spoodyworld?s=21&t=0ENuZm_nYRxaRFjQkeyTAA"><img src="images/x.png" alt="X" width="81px" height="96px"></a></li>
-              <li><a href="https://discord.gg/gEyvJqSZ"><img src="images/discord.png" alt="Discord" width="95px" height="96px"></a></li>
-              <li><a href="https://t.me/+fxOLB0Kd7bQ2MGUy"><img src="images/telegram.png" alt="Telegram" width="84px" height="96px"></a></li>
-            </ul>
-          </div>
-
-      </div>
-      <div class="image-group-1">
-        <img src="images/group2.webp" alt="">
-
-      </div>
-
-    </div>
-
-    </div>
-    </div>
-  </div>
-  <div class="border_bottom_first"> <hr style="width: 83%; border: 1px solid rgba(255, 255, 255, 0.43);"></div>
+                <div class="service-card" data-aos="fade-down">
+                    <img class="service-card-img" src="./img/services/03.svg" alt="UI/UX Design">
+                    <h3 class="service-card-title">Money Making</h3>
+                    <p>Our design is translated into comprehensive digital environments built on latest development standards.</p>
+                </div>
 
 
-  <div class="second_section" id="about-us-link">
-      <img class="about-us-img" src="images/ОЛ.webp" alt="sp">
-      <div id='second-hr' class="border_bottom_second"><hr style="width: 33%; border: 1px solid black"><hr style="width: 67%; border: 1px solid rgba(255, 255, 255, 0.43);"></div>
-    <div class="about-us-block">
-      <div class="www"><img src="images/about_us_spider.png" alt=""></div>
-      <div class="about-us-text-block">
-        <div class="about-us-heading">
-          <h3>ABOUT US</h3>
-        </div>
-        <p class="about-us-text">Spoody is a token tied to our comics, there will be constant insiders in the comics, which will give a lot of calls in the future.<br>
-          The comic will always be updated and you will be able to follow new stages through it.<br>
-          We combine all memes through one character,thus giving the opportunity to be in trend and keep up with the new time.
-        </p>
-    </div>
-  </div>
-
-  </div>
-  <div id="third-hr" class="border_bottom_second"><hr style="width: 33%; border: 1px solid black"><hr style="width: 67%; border: 1px solid rgba(255, 255, 255, 0.43);"></div>
-
-
-  <div class="third_section">
-    <div class="container">
-      <div class="content-third-section">
-        <div class="content-third-section-first">
-          <h1 class="our-features-heading" id="features">Our Features</h1>
-          <img src="images/group3.png" alt="" width="286px" height="143px" style="margin-left: auto;">
-        </div>
-        <div class="column-about-us">
-          <div class="row-about-us-block">
-            <div class="feature_item">
-              <img class="feature-item-img" src="images/spider.svg" alt="">
-              <div class="feature-item-no-img">
-                <h2 class="feature-heading">Combining and linking to news</h2>
-                <p class="feature-text">We follow the trends ourselves and soon set new ones, you just need to be with us</p>
-              </div>
-            </div>
-            <div class="feature_item">
-              <img class="feature-item-img" src="images/zero_symbol.png" alt="">
-              <div class="feature-item-no-img">
-                <h2 class="feature-heading">Own comic</h2>
-                <p class="feature-text">the comic not only describes memes and carries a story behind it, it also contains information about further manipulations</p>
-              </div>
-            </div>
-          </div>
-          <div class="row-about-us-block">
-            <div class="feature_item">
-              <img class="feature-item-img" src="images/danger_symbol.png" alt="">
-              <div class="feature-item-no-img">
-                <h2 class="feature-heading">Waived contract</h2>
-                <p class="feature-text">Contract will be renounced before the project is launched</p>
-              </div>
-            </div>
-            <div class="feature_item">
-              <img class="feature-item-img" src="images/lock_symbol.png" alt="">
-              <div class="feature-item-no-img">
-                <h2 class="feature-heading">Huge audience encouragement</h2>
-                <p class="feature-text">For any help to the project you will receive a reward in the form of our token</p>
-              </div>
             </div>
         </div>
-      </div>
-      </div>
-  </div>
-  </div>
-  <div class="border_bottom_first" id="hidden-hr"> <hr style="width: 75%; border: 1px solid rgba(255, 255, 255, 0.43);"></div>
+    </section>
 
-  <!-- Fourth Section -->
-  <div class="fourth_section">
-    <img class="group-gallery1" src="images/nft_slide_section.webp" alt="NFT Slide Section" height="898px">
-    <img class="group-gallery2" src="images/group_gallery.webp" alt="">
-    <img class="group-gallery3" src="images/group4.webp" alt="">
-  </div>
-  <div id="fifth-hr" class="border_bottom_second"><hr style="width: 47%; border: 1px solid black"><hr style="width: 53%; border: 1px solid rgba(255, 255, 255, 0.43);"></div>
+    <section class="portfolio">
+        <div class="container">
+            <div class="portfolio-title">
+                <h2 class="title-1" id="portfolio">Portfolio</h2>
+            </div>
 
+            <div class="project" data-aos="flip-up">
+                <img src="./img/portfolio/04.png" alt="Online fashion store" class="project-img">
+                <h3 class="project-title"><a href="https://www.gemini.com/dollar">Gemini</a></h3>
+            </div>
 
-  <!-- Fifth Section -->
-  <div class="fifth_section">
-    <div class="tokenomics_block">
-      <h3 class="tokenomics-heading" id="tokenomics-link">Tokenomics</h3>
-      <img src="images/tokenomics-circle.png" alt="">
-      <ul class="tokenomics-spread-list">
-        <li class="tokenomics-spread-item" id="listing-item">Listing - 15</li>
-        <li class="tokenomics-spread-item" id="air-drop-item">Air drop - 15</li>
-        <li class="tokenomics-spread-item" id="treasury-item">Treasury - 20</li>
-      </ul>
-      <ul class="tokenomics-spread-list-2"><li class="tokenomics-spread-item" id="liquidity-item">Liquidity pool - 50</li></ul>
+            <div class="project" data-aos="flip-up">
+                <img src="./img/portfolio/04.png" alt="Online fashion store" class="project-img">
+                <h3 class="project-title"><a href="https://www.gemini.com/dollar">Gemini</a></h3>
+            </div>
 
-      <div class="fees-text">
-        <div class="fees"><p class="fees-first-paragraph">0% FEES</p><p class="fees-second-paragraph">AT BUY/SELL</p></div>
-        <p class="tokenomics-info">Symbol: $BPEPE<br>Supply:<br>1,000,000,000<br>Network: BSC</p>
-      </div>
-      <span class="cryptowallet-address">0x55A02AD006CfaF71FEF8D825720A76DFA9fb82F6</span>
-      <a class="bscscan_button" href="#">BSCCHAN <img src="images/bscchan.svg" alt=""></a>
-      <img class="iron-man-spoody" src="images/group5.png" alt="">
-    </div>
+            <div class="project" data-aos="flip-up">
+                <img src="./img/portfolio/04.png" alt="Online fashion store" class="project-img">
+                <h3 class="project-title"><a href="https://www.gemini.com/dollar">Gemini</a></h3>
+            </div>
 
-  </div>
-  <div id="sixth-hr" class="border_bottom_first"> <hr style="width: 60%; border: 1px solid rgba(255, 255, 255, 0.43);"></div>
-  <div id="hidden-hr2" class="border_bottom_first"> <hr style="width: 100%; border: 1px solid rgba(255, 255, 255, 0.43);"></div>
-
-
-  
-  <div class="sixth-section">
-    <div class="meme-gallery">
-      <div class="first-three">
-        <img src="images/first-first-gallery.jpg" alt="" width="373px" height="302px">
-        <img src="images/second-first-gallery.jpg" alt="" width="458px" height="302px">
-        <img src="images/third-first-gallery.jpg" alt="" width="330px" height="330px">
-      </div>
-      <div class="second-three">
-        <img src="images/first-second-gallery.jpg" alt="" width="439px" height="571px">
-        <img src="images/second-second-gallery.jpg" alt="" width="488px" height="488px" style="margin-bottom: 83px;">
-        <img src="images/third-second-gallery.jpg" alt="" width="290px" height="348px" style="margin-bottom: 83px;">
-      </div>
-      <div class="two-columns-gallery">
-        <div class="third-column-gallery">
-          <img class="third-column-gallery1" src="images/first-third.jpg" alt="" width="447px" height="441px">
-          <img class="third-column-gallery2" src="images/second-third.jpg" alt="" width="417px" height="235px">
-          <img class="third-column-gallery3" src="images/third-third.jpg" alt="" width="434px" height="471px">
-          <img class="third-column-gallery4" src="images/fourth-third.png" alt="" width="451px" height="447px">
-          <img class="third-column-gallery5" src="images/fifth-third.jpg" alt="" width="451px" height="478px">
         </div>
-        <div class="fourth-column-gallery">
-          <img src="images/first-fourth-gallery.jpg" alt="" width="769px" height="914px">
-          <div class="fourth-column-row-gallery">
-            <img src="images/second-fourth-gallery.jpg" alt="" width="395px" height="499px">
-            <img src="images/third-fourth-gallery.webp" alt="" width="448px" height="549px">
-          </div>
-          <img src="images/fourth-fourth-gallery.png" alt="" width="700px" height="871px">
+    </section>
+
+    <footer class="contacts" id="contact">
+        <div class="container">
+            <div class="contacts-title">
+                <h2 class="title-1">Контакты</h2>
+            </div>
+            <div class="contacts-content" data-aos="fade-down">
+                <p>Хочешь узнать больше?<br> Пожалуйста!</p>
+            </div>
+            <div class="contacts-button" data-aos="fade-down">
+                <a href="https://t.me/Lem_beepro" class="btn" target="_blank">Написать</a>
+            </div>
+            <div class="contacts-social" data-aos="zoom-in">
+                <a href="#!"><img src="./img/socials/telegram.png" alt="LinkedIn" width="42px" height="42px"></a>
+                <a href="#!"><img src="./img/socials/Instargam.svg" alt="Instargam"></a>
+                <a href="#!"><img src="./img/socials/twitter.png" alt="Behance" width="42px" height="42px"></a>
+            </div>
+            
         </div>
+    </footer>
 
-      </div>
-      <div class="third-three">
-        <img src="images/first-third-img.jpg" alt="" width="724px" height="917px">
-        <img src="images/second-third-img.jpg" alt="" width="544px" height="690px">
-      </div>
-      <div class="fourth-third-gallery">
-      
-      <img src="images/first-sixth-img.jpg" alt="" width="695px" height="562px">
-      <img src="images/first-seventh.webp" alt="">
-    </div>
-
-    </div>
-
-  </div>
-
-  <div class="seventh-section">
-    <div class="firs-row7">
-      <img src="images/first-first-gallery.jpg" alt="" width="211px" height="171px">
-      <img src="images/third-second-gallery.jpg" alt="" width="132px" height="171px">
-    </div>
-    <div class="second-row7">
-      <img src="images/second-first-gallery.jpg" alt="" width="243px" height="160px">
-    </div>
-    <div class="third-row7">
-      <img src="images/first-third.jpg" alt="" width="168px" height="166px">
-      <img src="images/second-second-gallery.jpg" alt="" width="170px" height="191px">
-    </div>
-    <div class="fourth-row7">
-      <img src="images/first-fourth-gallery.jpg" alt="" width="220px" height="265px">
-      <img src="images/fourth-fourth-gallery.png" alt="" width="150px" height="216px">
-    </div>
-    <div class="first-column7">
-      <img src="images/second-third.jpg" alt="" width="222px" height="125px">
-      <img src="images/third-fourth-gallery.webp" alt="" width="333px" height="400px" style="position: absolute; bottom: 0; right: 0;">
-    </div>
-    <div class="fifth-row7">
-      <img src="images/leo_spider.png" alt="" width="181px" height="276px">
-      <img src="images/second-fourth-gallery.jpg" alt="" width="168px" height="213px" style="padding-bottom: 13px;">
-    </div>
-    <div class="sixth-row7">
-      <img src="images/fourth-third.png" alt="" width="177px" height="223px">
-      <img src="images/third-third.jpg" alt="" width="190px" height="223px">
-    </div>
-    <div class="seventh-row7">
-      <img src="images/first-third-img.jpg" alt="" width="313px" height="397px">
-    </div>
-    <div class="eith-row7">
-      <img src="images/fifth-third.jpg" alt="" width="195px" height="191px">
-      <img src="images/second-third-img.jpg" alt="" width="137px" height="174px">
-    </div>
-    <div class="second-column7">
-      <img src="images/first-sixth-img.jpg" alt="" width="326px" height="264px">
-      <img src="images/first-seventh.webp" alt="" width="400px" height="200px" style="margin-top: 59px;">
-    </div>
-
-  </div>
-
-
-  <footer class="footer">
-    <div id="footer_div"><img src="images/IMG_5117.png" alt="Spoody Glasses" id="wdr"> <span
-        class="spoody_span">SPOODY</div>
-    <p id="footer_text">Made with 
-      <svg xmlns="http://www.w3.org/2000/svg" width="25" height="23" viewBox="0 0 25 23" fill="none">
-        <path d="M24.1738 7.27874C24.1738 3.64541 21.2285 0.700073 17.5958 0.700073C15.3905 0.700073 13.4445 1.78874 12.2505 3.45274C11.0565 1.78874 9.11048 0.700073 6.90582 0.700073C3.27248 0.700073 0.327148 3.64474 0.327148 7.27874C0.327148 7.79341 0.392482 8.29207 0.504482 8.77274C1.41782 14.4481 7.72782 20.4354 12.2505 22.0794C16.7725 20.4354 23.0831 14.4481 23.9951 8.77341C24.1085 8.29274 24.1738 7.79407 24.1738 7.27874Z" fill="#DD2E44" />
-      </svg> by SPOODY <img src="images/small_spider.png" alt="Small SpiderMan" style="width: 24.24px; height: 39px;">
-    </p>
-
-    <div class="social-media-list-footer">
-
-      <div class="social-media-item-footer">
-        <a href="https://discord.gg/gEyvJqSZ"><img src="images/discord_footer.png" alt="" width="42px" height="42px"></a>
-      </div>
-
-      <div class="social-media-item-footer">
-        <a href="https://t.me/+fxOLB0Kd7bQ2MGUy"><img src="images/telegram_footer.png" alt="telegram icon" width="39px" height="39px"></a>
-      </div>
-
-      <div class="social-media-item-footer">
-        <a href="https://twitter.com/spoodyworld?s=21&t=0ENuZm_nYRxaRFjQkeyTAA"><img src="images/twitter_x_footer.png" alt="twitter icon" width="39px" height="39px"></a>
-      </div>
-
-    </div>
-  </footer>
-  <script
-  src="https://code.jquery.com/jquery-3.7.0.slim.min.js"></script>
-  <script src="scrypt.js"></script>
-
-
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js" integrity="sha512-A7AYk1fGKX6S2SsHywmPkrnzTZHrgiVT7GcQkLGDe2ev0aWb8zejytzS8wjo7PGEXKqJOrjQ4oORtnimIRZBtw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="./js/main.js"></script>
 </body>
-
 </html>
